@@ -1,0 +1,30 @@
+.topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #85C1E9;
+}
+.topmenu li {
+    float: left;
+}
+.topmenu li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.topmenu li a:hover {
+    background-color: #2980B9;
+	color: white;
+}
+.topmenu li a.active {
+    color: white;
+    background-color: #34495E;
+}
+.footer {
+    background-color: #85C1E9;
+    color: black;
+    padding: 15px;
+}
